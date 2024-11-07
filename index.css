@@ -1,0 +1,39 @@
+/*Default*/
+/*Red background only used for smallest devices (portrait phones, below 576 px)*/
+body{
+    background-color: red;
+    font-size: 3em;
+    font-family: "Arial Black"
+}
+
+ /* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    body{
+        background-color: green;
+    }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    body{
+        background-color: blue;
+    }
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    body{
+        background-color: fuchsia;
+    }
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    body{
+        background-color: yellow;
+    }
+ }
+
+
+
+ 
